@@ -14,3 +14,10 @@ sum(case
 	else 0
 	end) as sales2011
 from Invoice
+
+
+--select year(InvoiceDate) as YearOfInvoices,
+--		sum(Total) as TotalSales
+--from invoice
+--where year(InvoiceDate) in (2009,2011)
+--group by year(InvoiceDate)
